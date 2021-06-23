@@ -1,5 +1,15 @@
 {
+    "name": "api-nerd-news",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/derickcjesus/api-nerd-news.git",
+    "author": "",
+    "license": "MIT",
     "scripts": {
-        "start": "json-server --watch db.json --port 5001"
+      "start": "json-server --watch db.json --port 5001"
+    },
+    "devDependencies": {
+      "json-server": "^0.16.3"
     }
-}
+  }
+  
